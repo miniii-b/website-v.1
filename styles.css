@@ -1,14 +1,15 @@
 :root {
-  --bg: #0b1020;
-  --bg-soft: #101a2d;
-  --panel: rgba(16, 26, 45, 0.8);
-  --panel-strong: #111b2e;
+  --bg: #c7aaff;
+  --bg-soft: #abc5f4;
+  --panel: rgba(232, 240, 255, 0.8);
+  --panel-strong: #b077f1;
   --card: #f4f7ff;
-  --text: #eaf0ff;
-  --muted: #a9b7d4;
-  --primary: #8b5cf6;
-  --primary-2: #22c55e;
-  --accent: #7dd3fc;
+  --text: #001039;
+  --muted: #0b3fa6;
+  --primary: #fed6f4;
+  --primary-2: #b8fcd1;
+
+  --accent: #b3e6fe;
   --shadow: 0 28px 70px rgba(15, 23, 42, 0.35);
 }
 
@@ -534,3 +535,4 @@ h2 {
     gap: 1rem 1.5rem;
   }
 }
+
