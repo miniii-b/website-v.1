@@ -231,24 +231,29 @@ h2 {
 .chart {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  align-items: end;
+  grid-template-rows: repeat(10, minmax(0, 1fr));
   gap: 0.85rem;
   height: 180px;
   padding: 1rem 0.75rem 0.5rem;
   border-radius: 20px;
   background: rgba(8, 13, 23, 0.5);
+  box-sizing: border-box;
 }
 
-.bar {
-  border-radius: 14px 14px 0 0;
-  background: linear-gradient(180deg, var(--accent), var(--primary));
+.dot {
+  width: 16px;
+  height: 16px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
 }
 
-.bar-1 { height: 35%; }
-.bar-2 { height: 55%; }
-.bar-3 { height: 80%; }
-.bar-4 { height: 62%; }
-.bar-5 { height: 92%; }
+.dot-1 { grid-row: 7; }
+.dot-2 { grid-row: 5; }
+.dot-3 { grid-row: 3; }
+.dot-4 { grid-row: 4; }
+.dot-5 { grid-row: 2; }
 
 .mini-grid {
   display: grid;
