@@ -354,7 +354,7 @@ h2 {
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 0.8rem;
-  background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(125, 211, 252, 0.2));
+  background: linear-gradient(135deg, rgba(2, 166, 54, 0.2), rgba(125, 211, 252, 0.2));
   color: var(--text);
   font-weight: 700;
 }
@@ -553,4 +553,3 @@ h2 {
     gap: 1rem 1.5rem;
   }
 }
-
