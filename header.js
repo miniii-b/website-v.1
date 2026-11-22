@@ -4,7 +4,7 @@ template.innerHTML = `
       <nav class="nav container">
         <div class="brand">
           <a href="index.html">
-            <span class="brand-mark"> 🌳 </span>
+            <span class="brand-mark"> <img src="treelogo.png" alt="STEM Opportunities logo" width="24" height="24"> </img></span>
             </span> </a>
           <a href="index.html">
             <span> STEM Opportunities</span>

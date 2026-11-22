@@ -5,7 +5,7 @@ template.innerHTML = `
       <div class="container footer-inner">
         <div>
           <div class="brand footer-brand">
-            <span class="brand-mark">S</span>
+             <span class="brand-mark"> <img src="treelogo.png" alt="STEM Opportunities logo" width="24" height="24"> </img></span>
             <span>STEM Opportunities</span>
           </div>
         </div>
